@@ -1,0 +1,23 @@
+{
+  "name": "forestry-11ty-jamcart",
+  "version": "1.0.0",
+  "description": "A Forestry, 11ty, JamCart demo on LowCodeUnit.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fathym-it/forestry-11ty-jamcart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fathym-it/forestry-11ty-jamcart/issues"
+  },
+  "homepage": "https://github.com/fathym-it/forestry-11ty-jamcart#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
