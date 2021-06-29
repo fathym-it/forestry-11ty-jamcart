@@ -34,3 +34,5 @@ fields:
     maxSize: 64
   label: Image
   description: The image for the product.
+pages:
+- src/products/Gateways/raspberry-pi-model-4-b-quad-core-wifi-bluetooth.md
