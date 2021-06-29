@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/fathym-it/forestry-11ty-jamcart#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1"
+    "@11ty/eleventy": "^0.12.1",
+    "slugify": "*"
   }
 }
