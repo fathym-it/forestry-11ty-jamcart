@@ -13,7 +13,7 @@ description: 'Raspberry Pi 4 Model B is the latest product in the popular Raspbe
   capability (via a separate PoE HAT add-on). The dual-band wireless LAN and Bluetooth
   have modular compliance certification, allowing the board to be designed into end
   products with significantly reduced compliance testing, improving both cost and
-  time to market. Operating temperature: 0 – 50 degrees C ambient.'
+  time to market. Operating temperature: 0 – 50 degrees C ambient..'
 image: "/uploads/rpimodel4b.jpg"
 
 ---
