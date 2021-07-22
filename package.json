@@ -1,11 +1,9 @@
 {
   "name": "forestry-11ty-jamcart",
   "version": "1.0.0",
-  "description": "A Forestry, 11ty, JamCart demo on LowCodeUnit.",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "eleventy",
-    "start": "eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,7 +18,6 @@
   },
   "homepage": "https://github.com/fathym-it/forestry-11ty-jamcart#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
-    "slugify": "^1.6.0"
+    "@11ty/eleventy": "^0.12.1"
   }
 }
