@@ -1,12 +1,12 @@
 {
   "name": "@fathym-it/forestry-11ty-jamcart",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "eleventy",
-		"deploy": "npm version patch && npm run build && npm publish --access public",
-    "start": "eleventy --serve",  
+    "deploy": "npm version patch && npm run build && npm publish --access public",
+    "start": "eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
