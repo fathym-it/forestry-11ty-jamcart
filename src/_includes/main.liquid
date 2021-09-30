@@ -4,13 +4,15 @@
   <head>
     <title>{{ title }}</title>
 
+    <base href="/">
+
     <meta charset="utf-8" />
 
     <meta name="description" content="{{ description }}" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
 
     <script type="module" data-currency="USD" data-id="INSERT_JAMCART_ACCOUNT_ID" src="https://api.jamcart.io/v1/jamcart.js"></script>
   </head>
@@ -18,7 +20,7 @@
   <body>
     <header>
       <p id="site-logo">
-        <a href="./">LowCodeUnit Acme Shop</a>
+        <a href="">LowCodeUnit Acme Shop</a>
       </p>
 
       <jamcart-open>
