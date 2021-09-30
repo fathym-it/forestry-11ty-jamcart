@@ -4,14 +4,12 @@ layout: main.liquid
 ---
 
 <div id="product-view">
-  <img alt="" src=".{{ image }}" height="959" width="640" />
+  <img alt="" src="{{ image }}" height="959" width="640" />
 
   <form class="body">
     <h1>{{ name }}</h1>
 
     <p class="price">{{ price | money }}</p>
-
-    <h2>Product Description</h2>
 
     <p>{{ description }}</p>
 
