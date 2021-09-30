@@ -2,9 +2,9 @@ name: NPM - Release
 
 on:
   push:
-    branches: [main]
+    branches: [main, integration, feature/**]
   pull_request:
-    branches: [main]
+    branches: [main, integration, feature/**]
 
 env:
   Branches: main

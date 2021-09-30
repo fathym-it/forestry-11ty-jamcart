@@ -5,6 +5,9 @@ module.exports = (config) => {
     //  Passthrough the assets folder used for our css, favicon and other assets
     config.addPassthroughCopy('assets');
   
+    //  Passthrough the assets folder used for our css, favicon and other assets
+    config.addPassthroughCopy('package.json');
+  
     //  Configure our money filter so the price will be properly displayed
     config.addFilter('money', function (value) {
       const formatter = new Intl.NumberFormat('en-US', {
