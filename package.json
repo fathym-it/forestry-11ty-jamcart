@@ -2,7 +2,7 @@
   "name": "@fathym-it/forestry-11ty-jamcart",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "build": "eleventy",
     "deploy": "npm version patch && npm run build && npm publish ./_site --access public",
